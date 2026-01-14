@@ -1,6 +1,6 @@
 ﻿int a = 10 , b = 2, c = 0;
 
- void  Tambah()
+ void  tambah()
  {
 
     c = a + b;
@@ -20,7 +20,7 @@ void kali()
 {
 
     c = a + b;
-    Console.WriteLine($"{a} x {b} = {c}");
+    Console.WriteLine($"{a} * {b} = {c}");
 
 }
 
@@ -28,12 +28,14 @@ void Bagi()
 {
 
     c = a + b;
-    Console.WriteLine($"{a} / a{b} = {c}");
+    Console.WriteLine($"{a} / {b} = {c}");
 
 }
 
 
-
+tambah();
+kurang();
+kali();
 
 
 
